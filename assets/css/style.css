@@ -1,6 +1,6 @@
     body header {
-    font-size: 300%;
-    padding: 2.5%;
+    font-size: 250%;
+    padding: 2%;
     text-align: center;
     justify-content: center;
     color: rgb(255, 255, 255);
@@ -14,6 +14,7 @@
     }
     
     body nav a {
+    font-size: 120%;
     color: #ffffff;
     padding: 0.9% 0.9%;
     }
@@ -26,8 +27,11 @@
     background-color: rgb(96, 212, 115);   
     background-image: linear-gradient(rgb(127, 250, 148), rgb(33, 150, 70), rgb(18, 80, 37));
     }
+
+    /* Photo + the cool Subtitle */
     img {
     padding: 0.5%;
+    margin: 0.5%;
     border: 3px Solid rgb(255, 255, 255);
     border-radius: 20% 20% 0 20%;
     height: 20%;
@@ -35,11 +39,13 @@
     }
     body section div.background h1{
     font-size: 100%;
-    margin: 1%;
+    margin: 0.5%;
     padding: 1%;
     background-color: rgba(109, 109, 109, 0.7);
     color: rgb(255, 255, 255);
     }
+
+    /* main content */
     body main section.rows div.ContentTitle {
     font-size: 200%;
     margin: 2.5% 15%;
@@ -89,6 +95,15 @@
     body nav a {
     text-align: center;
     }
+    body nav {
+    justify-content: center;
+    }
+    img {  
+
+    }
+    body section div.background h1{
+    align-self: flex-end;
+    }
 
 
     }
@@ -102,15 +117,20 @@
     body nav a {
     text-align: center;
     }
+    body nav {
+    flex-direction: column;
+    }
         
     body section div.background {
     justify-content: center;
     width: 100%;
     flex-direction: column;
     }
-
-    body nav {
-    flex-direction: column;
+    img {
+    align-self: center;   
+    }
+    body section div.background h1{
+    align-self: center;
     }
     
     section.rows {
