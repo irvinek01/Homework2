@@ -16,15 +16,14 @@
         <h1>Arvin John Bautista</h1>
     </header>
 
+    <!-- Navigation Bar -->
     <nav>
         <a href="#AboutMe">About Me</a>
-        <a href="#">My Work</a>
+        <a href="#MyWork">My Work</a>
         <a href="#MyContact">My Contact</a>
         <a href="#">My Resume</a>
     </nav>
-
-<main>
-
+    <!-- Background image partition -->
     <section class="rows">
         <div class="background">
             <img src="./assets/images/pic1.jpg" alt="My Bio Picture" />
@@ -32,71 +31,83 @@
         </div>
     </section>
 
+    <!-- About Me Partition -->
     <section class="rows">
-        <div class="ContentTitle">
-            <h2 id="AboutMe">About Me</h2>
+        <div class="ContentHeading">
+            <h2>About Me</h2>
         </div>
-        <div class="Content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint adipisci
-                accusamus cupiditate, dolorum eius sed ea perferendis cumque.
-                Doloribus illum possimus nihil cumque, autem eos voluptatibus mollitia
-                corrupti debitis placeat ab nulla repellat in iure facere dicta
-                officiis quibusdam maxime ratione, blanditiis praesentium ipsa quis
-                nobis. Eveniet ullam debitis voluptatibus facilis, amet voluptatum
-                harum aliquid hic, voluptas temporibus quisquam dignissimos fugit
-                error. Repudiandae molestiae vero repellendus soluta blanditiis
-                architecto, sit quo, dolorum veritatis eveniet sapiente dolore, illo
-                consequatur explicabo quae.</p>
+        <div id="AboutMe" class="Content">
+                <p>My Full name is Bautista, Arvin John Macaya<br> 
+                    (Lastname, Firstname Middlename) 
+                    and yes, I have two first names, born in June 1st, 1995 @ Philippines, Quezon City 
+                    (Mabuhay!)<br> 
+                    Then in 2016, we moved here with my maDear(Mother) and sistar(Sister). </p>
         </div>
     </section>
 
+    <!-- My Work Partition -->
     <section  class="rows">
-        <div class="ContentTitle">
-            <h2>My Work</h2>
+
+        <!-- My Work Content Title -->
+        <div class="ContentHeading">
+            <h2 id="MyWork">My Work</h2>
         </div>
+
+        <!-- My Work Content Boxes -->
         <div class="Content">
-            <div class="Big">
-                <span><h3>Figure 1</h3>
-                <p>Description</p></span>
+            <!-- 3 rows -->
+            <div class="content-row">
+            <!-- 1 column -->
+                <div class="col-1">
+                    <span><h3>Figure 1</h3>
+                        <p>Top</p></span>
+                </div>
             </div>
 
-                 <div>
+            <div class="content-row">
+            <!-- 2 columns -->
+                <div class="col-2">
                     <span><h3>Figure 2</h3>
-                    <p>Description</p></span>
+                    <p>Left</p></span>
                 </div>
-                <div>
+                <div class="col-2">
                     <span><h3>Figure 3</h3>
-                    <p>Description</p></span>
+                    <p>Right</p></span>
                 </div>
-                <div>
+
+            </div>
+
+            <div class="content-row">
+            <!-- 2 columns -->
+                <div class="col-2">
                     <span><h3>Figure 4</h3>
-                    <p>Description</p></span>
+                    <p>Left</p></span>
                 </div>
-                <div>
-                    <span><h3>Figure 5</h3>
-                    <p>Description</p></span>
-                </div>
-
+            <div class="col-2">
+                <span><h3>Figure 5</h3>
+                <p>Right</p></span>
+            </div>
+            </div>
 
         </div>
     </section>
 
+    <!-- My Contact Partition -->
     <section class="rows">
-        <div class="ContentTitle">
-            <h2 id="MyContact">My Contact</h2>
+        <!-- My Contact Title -->
+        <div class="ContentHeading">
+            <h2>My Contact</h2>
         </div>
-        <div class="Content">
-            <section>
-                <p><a href="#">123 456 7890</a></p>
-                <p><a href="#">email@email.com</a></p>
-                <p><a href="#">GitHub</a></p>
-                <p><a href="#">Facebook</a></p>
-                <p><a href="#">Spotify</a></p>
-            </section>
+        <div id="MyContact" class="Content">
+            <nav>
+                <a href="#">123 456 7890</a>
+                <a href="#">email@email.com</a>
+                <a href="#">GitHub</a>
+                <a href="#">Facebook</a>
+                <a href="#">Spotify</a>
+            </nav>
         </div>
     </section>
-
-</main>
 
 </body>
 </html>
