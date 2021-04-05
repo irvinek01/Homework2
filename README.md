@@ -1,5 +1,10 @@
-# Homework2
+## 02 Advanced CSS: Portfolio
 https://github.com/irvinek01/Homework2
 https://irvinek01.github.io/Homework2/
 
-Description: A Web Portfolio, features a series of CSS designs I learned from Week 1, its main feature is being a responsive by the size of the screen, next is the on hover designs and last, a little bit knowledge about the student who made it. Special thank you for Mr. John and Maam Janani, to my whole class. I appreciate the tireless understanding and unending support
+## Description
+A Web-based portfolio, A display of my works/projects that I'm part of, to showcase my skills and talents to employers looking to fill a part-time or full-time position. Features a responsive UI that depends on device screens (Phone, Tablet, Monitor Wide)
+
+## Usage
+Clickable display of works will go to the deployed URL.
+![World of Words result page screenshot.](./assets/images/screenshot1.png)
