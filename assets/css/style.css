@@ -37,9 +37,12 @@ padding: 0.5em;
 
 /* Gradient Background */
 div.background {
+position: relative;
+display: flex;
 padding: 1em;
 width: 100%;
 align-items: center;
+justify-content: center;
 height: auto;
 background-color: rgb(96, 212, 115);   
 background-image: linear-gradient(rgb(127, 250, 148), rgb(33, 150, 70), rgb(18, 80, 37));
@@ -47,7 +50,6 @@ background-image: linear-gradient(rgb(127, 250, 148), rgb(33, 150, 70), rgb(18, 
 
 /* Photo + the Subtitle */
 img {
-display: flex;
 padding: 0.5%;
 margin: 0.5%;
 border: 3px Solid rgb(255, 255, 255);
@@ -56,6 +58,8 @@ height: 300px;
 width: 300px;
 }
 div.background h1{
+position: absolute;
+bottom: 0;
 font-size: 100%;
 margin: 0.5%;
 padding: 1%;
