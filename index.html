@@ -1,112 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>My Portfolio</title>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header>
-        <h1>Arvin John Bautista</h1>
+      <h1>Arvin John Bautista</h1>
     </header>
 
     <!-- Navigation Bar -->
     <nav>
-        <a href="#AboutMe">About Me</a>
-        <a href="#MyWork">My Work</a>
-        <a href="#MyContact">My Contact</a>
-        <a href="https://docs.google.com/document/d/1MEl8yV8Zkg7MKrkB_qpMcOCaPdVlqDN87q4sL92LuqE/edit?usp=sharing">My Resume</a>
+      <a href="#AboutMe">About Me</a>
+      <a href="#MyWork">My Work</a>
+      <a href="#MyContact">My Contact</a>
+      <a
+        href="https://docs.google.com/document/d/1MEl8yV8Zkg7MKrkB_qpMcOCaPdVlqDN87q4sL92LuqE/edit?usp=sharing"
+        >My Resume</a
+      >
     </nav>
     <!-- Background image partition -->
     <section class="rows">
-        <div class="background">
-            <img src="./assets/images/pic1.jpg" alt="My Bio Picture" />
-            <h1>My Portfolio!</h1>  
-        </div>
+      <div class="background">
+        <img src="./assets/images/pic1.jpg" alt="My Bio Picture" />
+        <h1>My Portfolio!</h1>
+      </div>
     </section>
 
     <!-- About Me Partition -->
     <section class="rows">
-        <div class="ContentHeading">
-            <h2>About Me</h2>
-        </div>
-        <div id="AboutMe" class="Content">
-                <p>My Full name is Bautista, Arvin John Macaya<br> 
-                    (Lastname, Firstname Middlename) 
-                    and yes, I have two first names, born in June 1st, 1995 @ Philippines, Quezon City 
-                    (Mabuhay!)<br> 
-                    Then in 2016, we moved here with my maDear(Mother) and sistar(Sister). </p>
-        </div>
+      <div class="ContentHeading">
+        <h2>About Me</h2>
+      </div>
+      <div id="AboutMe" class="Content">
+        <p>
+          My Full name is Bautista, Arvin John Macaya<br />
+          (Lastname, Firstname Middlename) and yes, I have two first names, born
+          in June 1st, 1995 @ Philippines, Quezon City
+        </p>
+      </div>
     </section>
 
-    <!-- My Work Partition -->
-    <section  class="rows">
+    <section class="rows">
+      <div class="ContentHeading">
+        <h2 id="MyWork">My Work</h2>
+      </div>
 
-        <!-- My Work Content Title -->
-        <div class="ContentHeading">
-            <h2 id="MyWork">My Work</h2>
+      <div class="Content">
+        <!-- 3 rows -->
+        <div class="content-row">
+          <!-- 1 column -->
+          <div class="col-1">
+            <a href="https://irvinek01.github.io/world-of-words/">
+              <span>
+                <h3>World of Words</h3>
+                <p>A Word Defining Web App</p>
+              </span>
+            </a>
+          </div>
         </div>
 
-        <!-- My Work Content Boxes -->
-        <div class="Content">
-            <!-- 3 rows -->
-            <div class="content-row">
-            <!-- 1 column -->
-                <div class="col-1">
-                    <span><h3>Figure 1</h3>
-                        <p>Top</p></span>
-                </div>
-            </div>
-
-            <div class="content-row">
-            <!-- 2 columns -->
-                <div class="col-2">
-                    <span><h3>Figure 2</h3>
-                    <p>Left</p></span>
-                </div>
-                <div class="col-2">
-                    <span><h3>Figure 3</h3>
-                    <p>Right</p></span>
-                </div>
-
-            </div>
-
-            <div class="content-row">
-            <!-- 2 columns -->
-                <div class="col-2">
-                    <span><h3>Figure 4</h3>
-                    <p>Left</p></span>
-                </div>
-            <div class="col-2">
-                <span><h3>Figure 5</h3>
-                <p>Right</p></span>
-            </div>
-            </div>
-
+        <div class="content-row">
+          <!-- 2 columns -->
+          <div class="col-2">
+            <a href="https://neighborhood-appage.herokuapp.com/">
+              <span>
+                <h3>Neighborhood Watch</h3>
+                <p>A Rating Review Web App</p>
+              </span>
+            </a>
+          </div>
+          <div class="col-2">
+            <a href="https://aj-tech-blog.herokuapp.com/">
+              <span>
+                <h3>Tech Blog</h3>
+                <p>A Blogsite</p>
+              </span>
+            </a>
+          </div>
         </div>
+
+        <div class="content-row">
+          <!-- 2 columns -->
+          <div class="col-2">
+            <span>
+              <h3>Figure 4</h3>
+              <p>Left</p>
+            </span>
+          </div>
+          <div class="col-2">
+            <span>
+              <h3>Figure 5</h3>
+              <p>Right</p>
+            </span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- My Contact Partition -->
     <section class="rows">
-        <!-- My Contact Title -->
-        <div class="ContentHeading">
-            <h2>My Contact</h2>
-        </div>
-        <div id="MyContact" class="Content">
-            <nav>
-                <a href="https://mail.google.com/">arvinyoung01@gmail.com</a>
-                <a href="https://github.com/irvinek01">GitHub</a>
-                <a href="https://www.facebook.com/Ikinneaas/">Facebook</a>
-                <a href="https://www.linkedin.com/in/irvine-kinneas-5a8a68207/">Linkedin</a>
-            </nav>
-        </div>
+      <!-- My Contact Title -->
+      <div class="ContentHeading">
+        <h2>My Contact</h2>
+      </div>
+      <div id="MyContact" class="Content">
+        <nav>
+          <a href="https://mail.google.com/">arvinyoung01@gmail.com</a>
+          <a href="https://github.com/irvinek01">GitHub</a>
+          <a href="https://www.facebook.com/Ikinneaas/">Facebook</a>
+          <a href="https://www.linkedin.com/in/irvine-kinneas-5a8a68207/"
+            >Linkedin</a
+          >
+        </nav>
+      </div>
     </section>
-
-</body>
+  </body>
 </html>
